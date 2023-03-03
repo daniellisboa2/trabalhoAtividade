@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.subtitulo {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+/* barra */
+#barra {
+    width: 100%;   
+    color: #eee;
+    height: 80px;
+    position: fixed;
+}
+
+#barra-div {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+#barra-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#barra-items li {
+    padding: 10px;
+}
+
+/* titulo */
+#titulo {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    background: url('img/design-destaque-33-1.webp') no-repeat center center/cover;
+    background-position: unset;
+
+    
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+}
+
+#titulo-div {
+    text-align: center;
+}
+
+#titulo-div h2 {
+    font-size: 2.5rem;
+}
+
+#titulo-div p {
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+
+
+/* produto */
+#produto {
+    width: 100%;
+    padding: 50px;
+    background-color: darkviolet;
+}
+
+
+#produto-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#items {
+    width: 650px;
+}
+
+#items .item {
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+/* sobre */
+.assunto {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#sobre {
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+
+#sobre-div {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.assunto .assunto-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+
+
+/* Footer */
+#footer {
+    background: #222;
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+}
